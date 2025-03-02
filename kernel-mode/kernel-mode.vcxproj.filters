@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{883c4ecb-170e-4d8c-85d1-ce4166e0f19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{0ec12975-670f-4b6b-9c5e-232f0ce2e8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\crt">
+      <UniqueIdentifier>{797b165c-ac5b-4120-be3f-022716f9c78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imports">
+      <UniqueIdentifier>{dbe58a1b-8d46-43dc-9c03-8aa072cdb60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\skcrypt">
+      <UniqueIdentifier>{d540527f-095d-45e0-b5df-6d6bac2f89a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\controller">
+      <UniqueIdentifier>{9591cd8c-1c44-4c9b-80ef-fb7724426e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\features">
+      <UniqueIdentifier>{083be0f2-43de-4797-8bd9-e757ca0597e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\controller\structure">
+      <UniqueIdentifier>{c630d125-5f96-42f1-a914-9c245ed5a20f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\features\memory">
+      <UniqueIdentifier>{4657cefa-df00-44bb-917f-f0c48a96f6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\features\paging">
+      <UniqueIdentifier>{4efb777a-5666-4949-8d9f-f831f39c6b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\features\module">
+      <UniqueIdentifier>{73782da5-4736-4caa-9ec7-f9d1f7eb3171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imports\ia32">
+      <UniqueIdentifier>{51959713-41e8-4583-853b-37ae5cf18a56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp" />
+    <ClCompile Include="dependencies\imports\imports.cpp">
+      <Filter>dependencies\imports</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\crt\crt.cpp">
+      <Filter>dependencies\crt</Filter>
+    </ClCompile>
+    <ClCompile Include="core\controller\controller.cpp">
+      <Filter>core\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\memory\memory.cpp" />
+    <ClCompile Include="core\features\module\module.cpp" />
+    <ClCompile Include="core\features\paging\paging.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\skcrypt\skcrypter.h">
+      <Filter>dependencies\skcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\includes.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imports\imports.h">
+      <Filter>dependencies\imports</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\crt\crt.h">
+      <Filter>dependencies\crt</Filter>
+    </ClInclude>
+    <ClInclude Include="core\controller\controller.h">
+      <Filter>core\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="core\controller\structure\structure.h">
+      <Filter>core\controller\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imports\ia32\ia32.h">
+      <Filter>dependencies\imports\ia32</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\memory\memory.h" />
+    <ClInclude Include="core\features\module\module.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core\features\paging\paging.h" />
+  </ItemGroup>
+</Project>

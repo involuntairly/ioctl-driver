@@ -1,0 +1,7 @@
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\controller\controller.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\controller.obj
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\features\memory\memory.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\memory.obj
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\features\module\module.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\module.obj
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\features\paging\paging.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\paging.obj
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\crt\crt.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\crt.obj
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\imports.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\imports.obj
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\source.cpp;C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\source.obj

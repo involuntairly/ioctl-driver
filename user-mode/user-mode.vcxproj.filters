@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source.cpp" />
+    <ClCompile Include="dependencies\kernel\kernel.cpp" />
+    <ClCompile Include="core\updates\entity\entity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\cipher\hash.h" />
+    <ClInclude Include="dependencies\kernel\structure\structure.h" />
+    <ClInclude Include="dependencies\kernel\kernel.h" />
+    <ClInclude Include="core\updates\entity.h" />
+    <ClInclude Include="core\updates\world.h" />
+    <ClInclude Include="core\updates\entity\entity.h" />
+    <ClInclude Include="core\sdk\offsets.h" />
+  </ItemGroup>
+</Project>

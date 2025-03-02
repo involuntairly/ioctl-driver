@@ -1,0 +1,48 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\) contains files shared from another project (kernel-mode.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  source.cpp
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\user-mode\dependencies\kernel\kernel.h(67,5): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'source.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\user-mode\source.cpp(18,37): warning C4244: '=': conversion from 'uintptr_t' to 'INT32', possible loss of data
+entity.obj : error LNK2001: unresolved external symbol __CxxFrameHandler4
+entity.obj : error LNK2001: unresolved external symbol __imp_calloc
+entity.obj : error LNK2001: unresolved external symbol __std_terminate
+kernel.obj : error LNK2001: unresolved external symbol __imp__wcsicmp
+source.obj : error LNK2001: unresolved external symbol __imp___acrt_iob_func
+source.obj : error LNK2001: unresolved external symbol __imp__beginthreadex
+source.obj : error LNK2001: unresolved external symbol __imp___stdio_common_vfprintf
+source.obj : error LNK2001: unresolved external symbol __imp_terminate
+MSVCRT.lib(new_scalar.obj) : error LNK2001: unresolved external symbol _callnewh
+MSVCRT.lib(new_scalar.obj) : error LNK2001: unresolved external symbol malloc
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __vcrt_initialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __vcrt_uninitialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __vcrt_uninitialize_critical
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __vcrt_thread_attach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __vcrt_thread_detach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _seh_filter_dll
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _is_c_termination_complete
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _configure_narrow_argv
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _initialize_narrow_environment
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _initialize_onexit_table
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _register_onexit_function
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _execute_onexit_table
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _crt_atexit
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _crt_at_quick_exit
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __acrt_initialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __acrt_uninitialize
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __acrt_uninitialize_critical
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __acrt_thread_attach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __acrt_thread_detach
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol _cexit
+MSVCRT.lib(utility.obj) : error LNK2001: unresolved external symbol __C_specific_handler
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol __std_exception_copy
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol __std_exception_destroy
+MSVCRT.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol _CxxThrowException
+MSVCRT.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol terminate
+MSVCRT.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol __current_exception
+MSVCRT.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol __current_exception_context
+MSVCRT.lib(utility_desktop.obj) : error LNK2001: unresolved external symbol memset
+MSVCRT.lib(delete_scalar.obj) : error LNK2001: unresolved external symbol free
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\user.exe : fatal error LNK1120: 39 unresolved externals

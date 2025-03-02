@@ -1,0 +1,515 @@
+﻿  Building 'kernel-mode' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\int\) contains files shared from another project (user-mode.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  controller.cpp
+  memory.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/controller/controller.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'core/controller/controller.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'core/controller/controller.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'core/controller/controller.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/controller/controller.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\controller\controller.cpp(102,28): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\controller\controller.cpp(131,10): warning C4101: 'w_buffer': unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'core/features/memory/memory.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'core/features/memory/memory.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'core/features/memory/memory.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(18,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(181,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(320,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(447,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(574,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1055,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1069,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1126,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1153,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1174,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1182,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1197,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1221,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1238,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1258,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1274,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1291,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1307,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1344,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1352,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1360,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1371,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1383,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1401,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1413,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1438,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1430,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1459,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1480,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/memory/memory.cpp')
+  
+  module.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/features/module/module.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'core/features/module/module.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'core/features/module/module.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'core/features/module/module.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/features/module/module.cpp')
+  
+  paging.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'core/features/paging/paging.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'core/features/paging/paging.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'core/features/paging/paging.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(18,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(181,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(320,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(447,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(574,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1055,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1069,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1126,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1153,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1174,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1182,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1197,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1221,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1238,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1258,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1274,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1291,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1307,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1344,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1352,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1360,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1371,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1383,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1401,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1413,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1438,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1430,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1459,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1480,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'core/features/paging/paging.cpp')
+  
+  crt.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'dependencies/crt/crt.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'dependencies/crt/crt.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'dependencies/crt/crt.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(18,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(181,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(320,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(447,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(574,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1055,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1069,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1126,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1153,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1174,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1182,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1197,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1221,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1238,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1258,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1274,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1291,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1307,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1344,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1352,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1360,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1371,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1383,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1401,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1413,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1438,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1430,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1459,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1480,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/crt/crt.cpp')
+  
+  imports.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'dependencies/imports/imports.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'dependencies/imports/imports.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'dependencies/imports/imports.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(18,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(181,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(320,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(447,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(574,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1055,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1069,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1126,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1153,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1174,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1182,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1197,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1221,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1238,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1258,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1274,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1291,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1307,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1344,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1352,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1360,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1371,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1383,2): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1401,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1413,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1438,6): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1430,3): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1459,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\dependencies\imports\ia32\ia32.h(1480,4): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'dependencies/imports/imports.cpp')
+  
+  source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'source.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(111,9): warning C4005: '_CRT_STRINGIZE': macro redefinition
+  (compiling source file 'source.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,9):
+      see previous definition of '_CRT_STRINGIZE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(114,9): warning C4005: '_CRT_WIDE': macro redefinition
+  (compiling source file 'source.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,9):
+      see previous definition of '_CRT_WIDE'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h(155,9): warning C4005: '__CRTDECL': macro redefinition
+  (compiling source file 'source.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,9):
+      see previous definition of '__CRTDECL'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+  (compiling source file 'source.cpp')
+  
+  Generating Code...
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\source.cpp(17,1): warning C4702: unreachable code
+C:\Users\ghtys\source\repos\i love you but it isn't mutual\kernel-mode\core\features\memory\memory.cpp(130,1): warning C4715: 'memory::write_physical_memory': not all control paths return a value
+  kernel-mode.vcxproj -> C:\Users\ghtys\source\repos\i love you but it isn't mutual\bin\kernel.sys
+  Driver is 'Universal'.
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
